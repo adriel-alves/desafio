@@ -32,6 +32,9 @@ dependencies {
 	compile("org.springframework.security:spring-security-jwt:1.0.2.RELEASE")
 	runtime('org.hsqldb:hsqldb')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile 'io.rest-assured:rest-assured:3.0.3'
+	compile 'io.rest-assured:json-path:3.0.3'
+	compile 'io.rest-assured:xml-path:3.0.3'
 	
 	compile("org.projectlombok:lombok:1.16.10")
 	compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.7.0'
